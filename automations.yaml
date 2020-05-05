@@ -1,0 +1,182 @@
+- id: bead8d5b0ec54e779513091721adb3d3
+  alias: Family Room TV (Media On)
+  trigger:
+  - entity_id: media_player.family_room_tv
+    for: 00:00:05
+    from: idle
+    platform: state
+    to: playing
+  - entity_id: media_player.family_room_tv
+    for: 00:00:05
+    from: 'off'
+    platform: state
+    to: playing
+  condition:
+  - after: '22:00:00'
+    condition: time
+  - condition: template
+    value_template: '{{ not is_state(''media_player.family_room_broadcast.app_name'',
+      ''Spotify'') }}'
+  action:
+  - entity_id: scene.family_room_dimmed
+    service: scene.turn_on
+- id: bead8d5b0ec54e779513091721adb3d4
+  alias: Family Room TV (Media Paused)
+  trigger:
+  - entity_id: media_player.family_room_tv
+    for: 00:00:05
+    from: playing
+    platform: state
+    to: paused
+  condition:
+  - condition: state
+    entity_id: sun.sun
+    state: below_horizon
+  action:
+  - entity_id: scene.media_player_paused
+    service: scene.turn_on
+- id: '1583427411981'
+  alias: Porchlights (Sunset)
+  description: ''
+  trigger:
+  - entity_id: sun.sun
+    from: above_horizon
+    platform: state
+    to: below_horizon
+  condition: []
+  action:
+  - scene: scene.porch_on
+- id: '1583427499692'
+  alias: Porchlights (Sunrise)
+  description: ''
+  trigger:
+  - entity_id: sun.sun
+    from: below_horizon
+    platform: state
+    to: above_horizon
+  condition: []
+  action:
+  - scene: scene.porch_off
+- id: '1583427739942'
+  alias: Porch (Keep On)
+  description: ''
+  trigger:
+  - entity_id: group.entryway
+    from: 'on'
+    platform: state
+    to: 'off'
+  condition:
+  - condition: state
+    entity_id: sun.sun
+    state: below_horizon
+  action:
+  - scene: scene.porch_on
+- id: '1583427884569'
+  alias: Porch (Keep Off)
+  description: ''
+  trigger:
+  - entity_id: group.entryway
+    from: 'off'
+    platform: state
+    to: 'on'
+  condition:
+  - condition: state
+    entity_id: sun.sun
+    state: above_horizon
+  action:
+  - scene: scene.porch_off
+- id: '1583892575954'
+  alias: Spotify On
+  description: ''
+  trigger:
+  - entity_id: media_player.family_room_broadcast
+    for: 00:00:05
+    from: idle
+    platform: state
+    to: paused
+  - entity_id: media_player.family_room_broadcast
+    for: 00:00:05
+    from: 'off'
+    platform: state
+    to: idle
+  condition: []
+  action:
+  - data:
+      entity_id: all
+      volume_level: 0.5
+    service: media_player.volume_set
+  - data:
+      entity_id: media_player.family_room_tv
+      volume_level: 0.75
+    service: media_player.volume_set
+- id: '1585875630099'
+  alias: Bedroom Lights (Keep Off)
+  description: ''
+  trigger:
+  - entity_id: group.bedroom
+    from: 'off'
+    platform: state
+    to: 'on'
+  condition:
+  - condition: state
+    entity_id: sun.sun
+    state: above_horizon
+  action:
+  - scene: scene.bedroom_lights_off
+- id: '1585875893180'
+  alias: Bedroom Lights On (At Night)
+  description: g
+  trigger:
+  - at: '23:00:00'
+    platform: time
+  condition: []
+  action:
+  - scene: scene.bedroom_lights_on
+- id: '1586805956571'
+  alias: Speaker Volume (Morning)
+  description: ''
+  trigger:
+  - at: 08:00:00
+    platform: time
+  condition: []
+  action:
+  - data:
+      entity_id: all
+      volume_level: 0.45
+    service: media_player.volume_set
+- id: '1536801956571'
+  alias: Speaker Volume (Morning)
+  description: ''
+  trigger:
+  - at: '11:00:00'
+    platform: time
+  condition: []
+  action:
+  - data:
+      entity_id: all
+      volume_level: 0.35
+    service: media_player.volume_set
+- id: '1588009476494'
+  alias: Left Home
+  description: ''
+  trigger:
+  - entity_id: person.justin
+    from: home
+    platform: state
+    to: not_home
+  - entity_id: person.katie
+    from: home
+    platform: state
+    to: not_home
+  condition:
+  - condition: state
+    entity_id: person.katie
+    state: not_home
+  - condition: state
+    entity_id: person.justin
+    state: not_home
+  action:
+  - data:
+      message: Lights Turned Off
+    service: notify.notify
+  - scene: scene.all_lights_off

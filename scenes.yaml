@@ -1,0 +1,73 @@
+- id: '1578178384565'
+  name: Family Room Dimmed
+  entities:
+    group.familyroom:
+      state: 'on'
+      brightness_pct: 45
+    group.kitchen:
+      state: 'off'
+    group.lightstrips:
+      state: 'off'
+- id: '1578181037553'
+  name: Family Room Normal
+  entities:
+    group.familyroom:
+      state: 'on'
+      brightness_pct: 100
+    group.kitchen:
+      state: 'on'
+    group.lightstrips:
+      state: 'on'
+- id: '1578131067593'
+  name: Family Room (Paused)
+  entities:
+    group.familyroom:
+      state: 'on'
+      brightness_pct: 75
+    group.kitchen:
+      state: 'on'
+      brightness_pct: 75
+- id: '1583456435917'
+  name: Porch On
+  entities:
+    group.entryway:
+      entity_id:
+      - light.porch_1
+      - light.porch_2
+      - light.hue_white_lamp_1_2
+      friendly_name: Entryway
+      order: 3
+      state: 'on'
+      brightness_pct: 100
+- id: '1583456457641'
+  name: Porch Off
+  entities:
+    group.entryway:
+      entity_id:
+      - light.porch_1
+      - light.porch_2
+      - light.hue_white_lamp_1_2
+      friendly_name: Entryway
+      order: 3
+      state: 'off'
+      brightness_pct: 0
+- id: '1585874883507'
+  name: Bedroom Lights Off
+  entities:
+    group.bedroom:
+      state: 'off'
+- id: '1585874883508'
+  name: Bedroom Lights On
+  entities:
+    group.bedroom:
+      state: 'on'
+      brightness_pct: 40
+- id: '1588009516536'
+  name: All Lights Off
+  entities:
+    group.bedroom:
+      state: 'off'
+    group.familyroom:
+      state: 'off'
+    group.kitchen:
+      state: 'off'

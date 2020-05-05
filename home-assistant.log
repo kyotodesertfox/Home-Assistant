@@ -1,0 +1,135 @@
+2020-05-05 16:43:49 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
+2020-05-05 16:43:49 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for badnest which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
+2020-05-05 16:43:49 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for simpleicons which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
+2020-05-05 16:44:09 ERROR (SyncWorker_19) [homeassistant.components.onkyo.media_player] Unable to connect to receiver at 10.0.0.193
+2020-05-05 16:44:15 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 16:44:15 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 5 seconds.
+2020-05-05 16:44:31 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 16:44:31 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 10 seconds.
+2020-05-05 16:44:52 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 16:44:52 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 20 seconds.
+2020-05-05 16:45:23 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 16:45:23 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 40 seconds.
+2020-05-05 16:46:14 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 16:46:14 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 16:47:45 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 16:47:45 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 16:49:16 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 16:49:16 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 16:50:47 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 16:50:47 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 16:52:18 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 16:52:18 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 16:53:49 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 16:53:49 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 16:55:20 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 16:55:20 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 16:56:51 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 16:56:51 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 16:58:22 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 16:58:22 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 16:59:53 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 16:59:53 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:01:24 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:01:24 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:02:55 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:02:55 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:04:26 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:04:26 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:05:57 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:05:57 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:07:28 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:07:28 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:08:59 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:08:59 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:10:30 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:10:30 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:12:01 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:12:01 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:13:32 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:13:32 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:15:03 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:15:03 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:16:34 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:16:34 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:18:05 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:18:05 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:19:36 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:19:36 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:21:07 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:21:07 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:22:38 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:22:38 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:24:09 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:24:09 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:25:40 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:25:40 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:27:11 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:27:11 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:28:42 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:28:42 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:30:13 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:30:13 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:31:44 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:31:44 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:33:15 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:33:15 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:34:46 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:34:46 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:35:19 ERROR (MainThread) [homeassistant.helpers.entity] Update for climate.family_room_thermostat fails
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 279, in async_update_ha_state
+    await self.async_device_update()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 472, in async_device_update
+    await self.hass.async_add_executor_job(self.update)
+  File "/usr/local/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/config/custom_components/badnest/climate.py", line 325, in update
+    self.device.update()
+  File "/config/custom_components/badnest/api.py", line 192, in update
+    for bucket in r.json()["updated_buckets"]:
+  File "/usr/local/lib/python3.7/site-packages/requests/models.py", line 898, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/simplejson/__init__.py", line 525, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python3.7/site-packages/simplejson/decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "/usr/local/lib/python3.7/site-packages/simplejson/decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+simplejson.errors.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+2020-05-05 17:36:17 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:36:17 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:37:48 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:37:48 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:39:19 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:39:19 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:40:50 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:40:50 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:42:21 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:42:21 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:43:52 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:43:52 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:45:23 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:45:23 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:46:54 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:46:54 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:48:25 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:48:25 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:49:56 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:49:56 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:51:27 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:51:27 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:52:58 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:52:58 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:54:29 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:54:29 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:56:00 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:56:00 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:57:31 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:57:31 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 17:59:02 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 17:59:02 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 18:00:33 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 18:00:33 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.
+2020-05-05 18:02:04 WARNING (MainThread) [homeassistant.components.upnp] Wanted UPnP/IGD device with UDN "uuid:1567b01a-575e-4439-ae62-cf96beee5c71" not found, aborting
+2020-05-05 18:02:04 WARNING (MainThread) [homeassistant.config_entries] Config entry for upnp not ready yet. Retrying in 80 seconds.

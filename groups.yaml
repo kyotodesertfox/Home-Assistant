@@ -1,0 +1,85 @@
+entryway:
+  name: Entryway
+  entities:
+    - light.porch_1
+    - light.porch_2
+    - light.garage_left
+    - light.garage_right
+familyroom:
+  name: Family Room
+  entities:
+    - light.fan_1
+    - light.fan_2
+    - light.rear_door_left_lamp
+    - light.rear_door_right_lamp
+kitchen:
+  name: Kitchen
+  entities:
+    - light.kitchen_1
+    - light.kitchen_2
+    - light.kitchen_3
+    - light.kitchen_4
+    - light.counter_1
+    - light.counter_2
+    - light.counter_3
+    - light.lightstrip_left
+    - light.lightstrip_right
+    - light.lightstrip_under_counter
+bedroom:
+  name: Bedroom
+  entities:
+    - light.bedroom_left_lamp
+    - light.bedroom_right_lamp
+m4:
+  name: M4
+  entities:
+    - binary_sensor.m4_check_control_messages
+    - binary_sensor.m4_condition_based_services
+    - binary_sensor.m4_door_lock_state
+    - binary_sensor.m4_lids
+    - binary_sensor.m4_lights_parking
+    - binary_sensor.m4_windows
+    - device_tracker.m4
+    - lock.m4_lock
+    - sensor.m4_mileage
+    - sensor.m4_remaining_fuel
+    - sensor.m4_remaining_range_fuel
+    - sensor.m4_remaining_range_total
+wifi:
+  name: Google Wifi
+  entities:
+    - sensor.google_wifi_current_version
+    - sensor.google_wifi_last_restart
+    - sensor.google_wifi_local_ip
+    - sensor.google_wifi_new_version
+    - sensor.google_wifi_uptime
+    - sensor.google_wifi_status
+    - sensor.pixel_4_xl_wifi_connection
+speedtest:
+  name: Speed Test
+  entities:
+    - sensor.speedtest_download
+    - sensor.speedtest_ping
+    - sensor.speedtest_upload
+media_players:
+  name: Media Players
+  entities:
+    - media_player.bathroom_speaker
+    - media_player.bedroom_clock
+    - media_player.bedroom_speaker_left
+    - media_player.bedroom_speaker_right
+    - media_player.bedroom_speaker_pair
+    - media_player.family_room_tv
+    - media_player.katie_s_tv
+    - media_player.kitchen_display
+    - media_player.kitchen_speaker
+    - media_player.office_display
+    - media_player.office_speaker
+    - media_player.samsung_un65ks8000
+media_broadcast:
+  name: Broadcast Players
+  entities:
+    - media_player.bedroom_broadcast
+    - media_player.family_room_broadcast
+    - media_player.house_broadcast
+    - media_player.office_broadcast

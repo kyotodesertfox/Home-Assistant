@@ -1,0 +1,23 @@
+# An * ensures that everything will be ignored.
+
+# You can whitelist files/folders with !, these will not be ignored.
+!*.yaml
+!.gitignore
+!*.md
+*.db
+
+# Ignore folders.
+.storage
+.cloud
+.google.token
+custom_components
+keys
+www
+.git
+tts
+themes
+.git
+
+# Ensure these YAML files are ignored, otherwise your secret data/credentials will leak.
+secrets.yaml
+known_devices.yaml
